@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main class='main'>
+    <nav class='navBar'>
+      <h1>My Potfolio</h1>
+      <div class='navigationMenu'>
+        <a href='#aboutme'>About Me</a>
+        <a href='#skills'>Skills</a>
+        <a href='#Projects'>Projects</a>
+        <a href='#contactform'>Let's connect!</a>
+      </div>
+    </nav>
+    <section class='heroSection'>
+      <img class='profileImage' src="woman.jpg" />
+      <div class='herosectionDetails'>
+        <h1>Niharika Sinha</h1>
+        <h3>Computer science & Engineering student at BIT,Raipur</h3>
+      </div>
+    </section>
+    <section class='aboutme' id='aboutme'>
+      <h1>About Me</h1>
+      <p>I am a 3rd year CSE undergraduate student from Bhilai institute of
+        technology, Raipur. I am a fast learner and have strong work ethic. my
+        goal is to get a job in required company where i can utilize my skills &
+        improve my career path</p>
+    </section>
+    <section class='skillsAndProjects'>
+      <div class='skills' id='skills'>
+        <h1 class='cardHeading'>Skills</h1>
+        <img src='Untitled design.jpg' title='CSS'>
+        <img src='html design.jpg' title='HTML'>
+        <img src='bootstrap.jpg' title='Bootstrap'>
+        <img src='React design.jpg' title='REACT'>
+        <img src='javascript.jpg' title='Javascript'>
+        <img src='python design.jpg' title='Python'>
+      </div>
+      <div class='Projects' id='Projects'>
+        <h1 class='cardHeading'>Projects</h1>
+        <div class='projectContainer'>
+          <img src='project2.jpg'>
+          <div class='projectDescription'>
+            <h4>Note taking app</h4>
+            <p>In this we able to post a notes there on a screen.
+              made using REACT and JAVASCRIPT</p>
+          </div>
+        </div>
+        <div class='projectContainer'>
+          <img src='project.jpg' />
+          <div class='projectDiscription'>
+            <h4>Fitness portfolio</h4>
+            <p>in this porfolio we get to know about health and fitness. made using HTML and BOOTSTRAP</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class='contactForm' id='contactForm'>
+      <div class='contactform' id='contactform'>
+        <h1> Let's Connect!</h1>
+        <div class='formGroup'>
+          <label form='name'>Enter Your Name</label><br />
+          <input type='text' id='name' placeholder='Full Name'>
+        </div>
+        <div class='formGroup'>
+          <label form='email'>Email</label><br />
+          <input type='text' id='email' placeholder='Email' />
+        </div>
+        <div class='formGroup'>
+          <label form='message'>Message</label><br />
+          <textarea placeholder="Send Some message!" id="message" name="review" rows="4" cols="50"></textarea>
+        </div>,
+        <button class='submitButton' onClick={submit()}>Connect</button>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>
